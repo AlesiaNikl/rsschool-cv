@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+}
+
+main{
+    width: fit-content;
+    margin: auto;
+    padding: 20px 50px;
+    background: linear-gradient(#f1f0f1, #dcdbdf);
+    /*box-shadow: 0 0 20px rgba(0,0,0,0.5);*/
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+
+h1{
+    text-align: center;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    border-bottom: 1px solid black;
+}
+
+.title{
+    text-align: right;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+}
+
+.cv-image{
+    width: 120px;
+    border-radius: 50%;
+}
+
+.links .contact-link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.links .contact-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.subtitle{
+    padding: 0 20px;
+}
+
+.list{
+    padding-bottom: 10px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer i{
+font-size: 30px;
+color: black;
+}
+
+footer i:hover{
+    color: white;
+}
+
+.school-logo{
+width: 60px;
+height: 50px;
+}
