@@ -60,7 +60,18 @@
       <article class="code-examples">
         <h2 class="section-title">Code Examples</h2>
         <code>
-            console.log("Hello World!");
+            <pre>
+      function findShort(s){
+        let arr = s.split(" ");
+        let shortestWordLength = arr[0].length;
+        for(let i = 0; i < arr.length; i = i +1){
+          if(arr[i].length < shortestWordLength){
+            shortestWordLength = arr[i].length
+          }
+        }
+        return shortestWordLength;
+      }
+            </pre>
         </code>
       </article>
 
